@@ -4,7 +4,7 @@ class npyts {
 
     dtypes: {[key: string]: {name: String, size: number, arrayConstructor: any}};
   
-    constructor(opts: any) {
+    constructor(opts?: any) {
         if (opts) {
             console.error([
                 "No arguments accepted to npyjs constructor.",
